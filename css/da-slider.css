@@ -5,10 +5,6 @@
 	position: relative;
 	margin: 4% auto;
 	overflow: hidden;
-	/*background: transparent url(../images/waves.gif) repeat 0% 0%;
-	border-top: 8px solid #efc34a;
-	border-bottom: 8px solid #efc34a;
-	box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;*/ 
 	-webkit-transition: background-position 1s ease-out 0.3s;
 	-moz-transition: background-position 1s ease-out 0.3s;
 	-o-transition: background-position 1s ease-out 0.3s;
@@ -78,10 +74,10 @@
 	top: 70px;
 	height: 256px;
 	line-height: 320px;
-	left: 110%; /*60%*/
+	left: 110%;
 }
 .da-slide .da-link{
-	top: 270px; /*depends on p height*/
+	top: 270px; 
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	border: 3px solid rgba(255,255,255,0.8);
@@ -198,9 +194,7 @@
 	left: 60%;
 	opacity: 1;
 }
-/* Animation classes and animations */
 
-/* Slide in from the right*/
 .da-slide-fromright h2{
 	-webkit-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
 	-moz-animation: fromRightAnim1 0.6s ease-in-out 0.8s both;
@@ -318,7 +312,6 @@
 	0%{ left: 110%; opacity: 0; }
 	100%{ left: 60%; opacity: 1; }
 }
-/* Slide in from the left*/
 .da-slide-fromleft h2{
 	-webkit-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
 	-moz-animation: fromLeftAnim1 0.6s ease-in-out 0.6s both;
@@ -436,7 +429,6 @@
 	0%{ left: -110%; opacity: 0; }
 	100%{ left: 60%; opacity: 1; }
 }
-/* Slide out to the right */
 .da-slide-toright h2{
 	-webkit-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
 	-moz-animation: toRightAnim1 0.6s ease-in-out 0.6s both;
@@ -559,7 +551,6 @@
 	30%{ left: 55%;  opacity: 1; }
 	100%{ left: 100%; opacity: 0; }
 }
-/* Slide out to the left*/
 .da-slide-toleft h2{
 	-webkit-animation: toLeftAnim1 0.6s ease-in-out both;
 	-moz-animation: toLeftAnim1 0.6s ease-in-out both;
@@ -696,4 +687,10 @@
 }
 @media (max-width: 480px) {
  
+}
+@media (max-width: 767px) {
+	.social-icons a {
+		font-size: 20px;
+		margin: 5px;
+	}
 }
