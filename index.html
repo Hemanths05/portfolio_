@@ -46,6 +46,16 @@
             margin: 0 5px;
         }
     }
+
+    .banner-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
 </style>
 </head>
 
@@ -71,11 +81,11 @@
 </header>
 <div id="#top"></div>
 <section id="home">
-  <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
+  <div class="banner-container"> <img src="images/bg1.png" alt="banner" />
     <div class="container banner-content"> 
             <div class="row">
                 <header class="centered">
-                    <h1>HEMANTH S</h1>
+                    <h1 style="color: #fff1f1; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);">HEMANTH S</h1>
                     <p>PROFESSIONAL SOFTWARE DEVELOPER</p>
                 </header>
                 <div class="social-icons">
